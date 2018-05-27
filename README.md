@@ -17,4 +17,4 @@ npm test --coverage
 ```
 
 ## With complete test ##
-[complete branch](https://gitlab.thinknet.co.th/kunapot/seedcamp-react-bkk/tree/complete)
+[complete branch](https://github.com/aofleejay/testing-workshop/tree/complete)
