@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Container styled-components Match its snapshot 1`] = `
+.c0 {
+  padding: 10px;
+  border-bottom: 1px solid #E6ECF0;
+  background-color: #FFFFFF;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test Text styled-components Match its snapshot 1`] = `
+.c0 {
+  color: #14171A;
+  font-size: 14px;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Test Title styled-components Match its snapshot 1`] = `
+.c0 {
+  color: #14171A;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Test card ui structure Match its snapshot When all props exists 1`] = `
+<Container>
+  <Title
+    id="card-title-1"
+  >
+    Lorem
+  </Title>
+  <Text
+    id="card-body-1"
+  >
+    Ipsum.
+  </Text>
+</Container>
+`;
+
+exports[`Test card ui structure Match its snapshot When no props exists 1`] = `
+<Container>
+  <Title
+    id="card-title-1"
+  >
+    Anonymous
+  </Title>
+  <Text
+    id="card-body-1"
+  >
+    Ipsum.
+  </Text>
+</Container>
+`;

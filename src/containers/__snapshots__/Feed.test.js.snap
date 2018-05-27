@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Feed container Match its snapshot 1`] = `
+<Feed
+  inputText=""
+  onChangeText={[Function]}
+  onSubmit={[Function]}
+  posts={Array []}
+/>
+`;

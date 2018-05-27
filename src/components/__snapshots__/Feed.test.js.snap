@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Feed component Match its snapshot When all props exists 1`] = `
+<Layout>
+  <Form
+    id="post-form"
+    onSubmit={[Function]}
+  >
+    <TextInput
+      id="input-text"
+      maxLength={300}
+      name="text"
+      onChange={[Function]}
+      placeholder="What's happening?"
+      value="My input text"
+    />
+    <SubmitButton
+      id="submit-button"
+      value="Send"
+    />
+  </Form>
+  <Card
+    body="My body 1"
+    id={1}
+    key="1"
+    title="My Title 1"
+  />
+  <Card
+    body="My body 2"
+    id={2}
+    key="2"
+    title="My Title 2"
+  />
+</Layout>
+`;
+
+exports[`Test Feed component Match its snapshot When no props exists 1`] = `
+<Layout>
+  <Form
+    id="post-form"
+    onSubmit={[Function]}
+  >
+    <TextInput
+      id="input-text"
+      maxLength={300}
+      name="text"
+      onChange={[Function]}
+      placeholder="What's happening?"
+      value=""
+    />
+    <SubmitButton
+      id="submit-button"
+      value="Send"
+    />
+  </Form>
+</Layout>
+`;
+
+exports[`Test Form styled-components Match its snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #E6ECF0;
+}
+
+<form
+  className="c0"
+/>
+`;
+
+exports[`Test SubmitButton styled-components Match its snapshot 1`] = `
+.c0 {
+  width: 100px;
+  height: 30px;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #BBC6CE;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+<input
+  className="c0"
+  type="submit"
+/>
+`;
+
+exports[`Test TextInput styled-components Match its snapshot 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 30px;
+  padding: 5px;
+  color: #14171A;
+  border: 1px solid #E6ECF0;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+<input
+  className="c0"
+  required={true}
+  type="text"
+/>
+`;

@@ -5,15 +5,16 @@ import Card from './common/Card'
 import Layout from './common/Layout'
 import * as COLORS from '../constants/colors'
 
-const Form = styled.form`
+export const Form = styled.form`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid ${COLORS.GREY_200};
 `
+Form.displayName = 'Form'
 
-const TextInput = styled.input.attrs({
+export const TextInput = styled.input.attrs({
   type: 'text',
   required: true,
 })`
@@ -26,8 +27,9 @@ const TextInput = styled.input.attrs({
   font-size: 14px;
   outline: none;
 `
+TextInput.displayName = 'TextInput'
 
-const SubmitButton = styled.input.attrs({
+export const SubmitButton = styled.input.attrs({
   type: 'submit',
 })`
   width: 100px;
@@ -43,6 +45,7 @@ const SubmitButton = styled.input.attrs({
   cursor: pointer;
   outline: none;
 `
+SubmitButton.displayName = 'SubmitButton'
 
 const Feed = ({ posts, inputText, onChangeText, onSubmit }) => (
   <Layout>

@@ -11,13 +11,15 @@ export const Header = styled.header`
   background-color: ${COLORS.WHITE};
   border-bottom: 1px solid rgba(0,0,0,0.25);
 `
+Header.displayName = 'Header'
 
-const Content = styled.div`
+export const Content = styled.div`
   max-width: 600px;
   margin: 10px auto;
   background-color: ${COLORS.GREY_100};
   border: 1px solid ${COLORS.GREY_200};
 `
+Content.displayName = 'Content'
 
 const Layout = ({ children }) => (
   <Fragment>

@@ -3,20 +3,23 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import * as COLORS from '../../constants/colors'
 
-const Container = styled.div`
+export const Container = styled.div`
   padding: 10px;
   border-bottom: 1px solid ${COLORS.GREY_200};
   background-color: ${COLORS.WHITE};
 `
+Container.displayName = 'Container'
 
-const Text = styled.p`
+export const Text = styled.p`
   color: ${COLORS.BLACK};
   font-size: 14px;
 `
+Text.displayName = 'Text'
 
-const Title = Text.extend`
+export const Title = Text.extend`
   font-weight: bold;
 `
+Title.displayName = 'Title'
 
 const Card = ({ id, title, body }) => (
   <Container>

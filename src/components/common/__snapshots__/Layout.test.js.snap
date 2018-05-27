@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Content styled-components Match its snapshot 1`] = `
+.c0 {
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #F5F8FA;
+  border: 1px solid #E6ECF0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test Header styled-components Match its snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 45px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`Test layout ui structure Match its snapshot When all props exists 1`] = `
+<React.Fragment>
+  <Header />
+  <Content>
+    <Child />
+  </Content>
+</React.Fragment>
+`;
+
+exports[`Test layout ui structure Match its snapshot When no props exists 1`] = `
+<React.Fragment>
+  <Header />
+  <Content />
+</React.Fragment>
+`;
