@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "body": "Hello",
+      "title": "Jim Austin",
+      "id": 1
+    },
+    {
+      "body": "Hi",
+      "title": "Romain Hoogmoed",
+      "id": 2
+    },
+    {
+      "body": "ทดสอบ",
+      "title": "Anonymous",
+      "id": 3
+    }
+  ]
+}

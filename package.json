@@ -1,0 +1,25 @@
+{
+  "name": "seedcamp-react-bkk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm-run-all --parallel dev json-server",
+    "dev": "react-scripts start",
+    "json-server": "json-server --watch db.json --port 5000",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "prop-types": "15.6.1",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-scripts": "1.1.4",
+    "styled-components": "3.2.6"
+  },
+  "devDependencies": {
+    "json-server": "0.12.2",
+    "npm-run-all": "4.1.3"
+  }
+}
